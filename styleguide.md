@@ -1,0 +1,60 @@
+# ECOMMERCE WEBSITE STYLEGUIDE
+
+## BRANDING
+
+    - PRIMARY: DARK GREEN(#004D00)
+    - SECONDARY COLORS:
+        - ACCENT COLOR 1: LIGHT GREEN(#65A366)
+        - ACCENT COLOR 2: GRAY(#808080)
+
+## TYPOGRAPHY SYSTEM
+
+    - HEADING FONT: MONTSERRAT
+    - BODY FONT: OPEN SANS
+    - FONT SIZES
+        - HTML: 62.5%
+        - H1: 4.8REM
+        - H2: 3REM
+        - H3: 2.8REM
+        - BODY: 1.6REM
+        10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+    - FONT WEIGHT
+        Default: 500
+    - LINE HEIGHTS
+        Default: 1
+
+## COLORS
+
+    - BACKGROUND COLOR: WHITE(#FFFFFF)
+    - TEXT COLOR: BLACK(#000000)
+    - BUTTON STYLES:
+        - PRIMARY BUTTON:
+            MAIN: DARK GREEN(#004D00)
+            CONTRASTTEXT: WHITE(#FFFFFF)
+
+            LIGHT: LIGHT GREEN(#)
+            CONTRASTTEXT: WHITE(#FFFFFF)
+
+            DARK:
+            CONTRASTTEXT: WHITE(#FFFFFF)
+
+## LINK STYLES
+
+    DEFAULT LINK: DARK GREEN(#)
+    HOVER/CLICK: LIGHT GREEN(#)
+
+## BORDER RADIUS
+
+    8PX / 12PX / 20PX
+
+## SPACING SYSTEM (PX)
+
+    2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+## ICONS
+
+    FONTAWESOME ICONS
+
+## BUTTONS
+
+    MATERIAL UI BUTTONS

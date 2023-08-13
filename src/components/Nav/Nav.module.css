@@ -1,5 +1,18 @@
 .nav {
-    width: 14%;
-    min-height: 98%;
+    width: 16%;
+    min-height: 100%;
     background-color: #1F242D;
+    text-align: left;
+}
+.navItemBox {
+    display: flex;
+    gap: 20px;
+    width:90%;
+    margin: 0 0 20px 10%;
+}
+.navItem {
+    font-size: 1rem;
+    /* align-items: center; */
+    /* align-content: center; */
+    margin-top: 4px;
 }

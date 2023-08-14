@@ -1,0 +1,30 @@
+.imageCard {
+    position: relative;
+}
+.imageArea {
+    width: 100%;
+    height: 380px;
+    margin-right: 12px;
+}
+.image {
+    max-width: 100%;
+    height: 100%;
+}
+.textArea {
+    position: absolute;
+    bottom: 24px;
+    left: 40px;
+    width: 400px;
+}
+.header {
+    font-size: 2rem;
+}
+.description {
+    font-size: 1.2rem;
+    margin: 8px 0;
+}
+.innerBox {
+    margin-top: 40px;
+    display: flex;
+    gap: 20px;
+}

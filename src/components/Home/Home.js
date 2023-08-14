@@ -5,9 +5,17 @@ import Hero from "../Hero/Hero";
 const Home = () => {
   return (
     <div>
-      <h1 className={styles.header}>DURO</h1>
-      <Nav />
-      <Hero />
+      <header>
+        <h1 className={styles.header}>DURO</h1>
+      </header>
+      <div className={styles.box}>
+        <div className={styles.nav}>
+          <Nav />
+        </div>
+        <div className={styles.hero}>
+          <Hero />
+        </div>
+      </div>
     </div>
   );
 };

@@ -1,5 +1,15 @@
+.box {
+    display: flex;
+}
 .header {
     font-size: 4rem;
     font-style: italic;
-    font-weight: 900;
+    font-weight: 800;
+}
+.nav {
+    width: 12%;
+    margin-right: 20px;
+}
+.hero {
+    width: calc(88% - 20px);
 }

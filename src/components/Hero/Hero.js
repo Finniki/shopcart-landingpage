@@ -8,22 +8,24 @@ const Hero = () => {
     {
       src: spiderman,
       title: "Fortnite",
-      description: "",
-      reviews: "",
+      description:
+        "Once you've set up your wallet of choice, connect it to OpenSea by clicking the wallet icon in the top right corner.",
+      reviews: "Reviews 3,4k",
       ratings: "",
     },
     {
       src: spacemen,
       title: "Spacemen 2000",
-      description: "",
-      reviews: "",
+      description:
+        "Once you've set up your wallet of choice, connect it to OpenSea by clicking the wallet icon in the top right corner.",
+      reviews: "Reviews 3,4k",
       ratings: "",
     },
   ];
 
   return (
-    <header>
-      <div>
+    <header className={styles.hero}>
+      <div className={styles.box}>
         {heroImages.map(({ src, title, description, reviews, ratings }) => {
           return (
             <HeroImages

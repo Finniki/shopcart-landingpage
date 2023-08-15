@@ -1,6 +1,7 @@
 import styles from "./HeroImages.module.css";
 import { Button, ThemeProvider } from "@mui/material";
 import buttonTheme from "../../assets/themes/buttonThemes";
+import Rating from "@mui/material/Rating";
 import heroBtn from "../../assets/styles/heroBtn";
 
 const HeroImages = ({ src, title, description, reviews, ratings }) => {
@@ -20,7 +21,9 @@ const HeroImages = ({ src, title, description, reviews, ratings }) => {
           </ThemeProvider>
           <div className={styles.feedbackBox}>
             <p className={styles.reviews}>{reviews}</p>
-            <p className={styles.ratings}>{ratings}</p>
+            <p className={styles.ratings}>
+              <Rating name="read-only" value={5} readOnly />
+            </p>
           </div>
         </div>
       </div>
